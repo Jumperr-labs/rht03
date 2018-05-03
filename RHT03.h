@@ -23,7 +23,7 @@ class RHT03 : public ExternalPeripheral {
         INIT,
         TRANSMIT,
         END
-    } state_;
+    } state_ {IDLE};
 };
 
 DLL_EXPORT ExternalPeripheral *PeripheralFactory() {
