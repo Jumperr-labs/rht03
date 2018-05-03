@@ -1,0 +1,22 @@
+{
+    "DataGenerators": [
+        {
+            "id": 1,
+            "type": "Increment",
+            "config": {
+                "min" : 10,
+                "max" : 70,
+                "step" : 10
+            }
+        },
+        {
+            "id": 2,
+            "type": "sin",
+            "config": {
+                "min": 20,
+                "max": 40,
+                "sinFrequency": 0.5
+            }
+        }
+    ]
+}
